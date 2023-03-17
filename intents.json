@@ -1,0 +1,578 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Heyyo", "Hi"],
+      "responses": ["I am a robot supported by FSTG to help you"]
+    },
+    {
+      "tag":"salutations",
+      "patterns":["Bonjour","Salut","Slt","Bjr","Bonsoir"],
+      "responses":["Je suis un robot soutenu par FSTG pour vous aider"]
+    },
+      {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {
+      "tag": "Remerciement",
+      "patterns": ["Merci", "Merci beaucoup", "C'est utile", "Geniale, merci", "Merci pour m'aider"],
+      "responses": ["Heureux de vous aider!", "a tout moment!", "Bienvenue", "C'est notre devoir"]
+    },
+    {
+      "tag": "Student SIR",
+      "patterns": ["i am a student in license SIR", "i am a student in license SIR fstg","i'm a student in license SIR","i'm a student in license SIR fstg", "i'm student license sir fstg", "i'm student license sir", "i am student sir","i am student sir fstg"],
+      "responses": ["how can help you?", "how can do for you?", "what do you want from me?","fstg robot at your service"]
+    },
+    {
+      "tag": "Etudiant SIR",
+      "patterns": ["je suis etudiant en sir", "je suis etudiant en licence sir fstg", "je suis licence sir", "je suis etudiant sir","je suis etudiant sir fstg"],
+      "responses": ["Comment puis-je vous aider?", "comment peut faire pour vous?", "que voulez-vous de moi?","robot fstg a votre service"]
+    },
+     {
+      "tag":"SGBD Course",
+      "patterns":["I want a database course?","I want a database lesson?","SGBD course?","I want a SGBD course?","I want a complete SGBD course?","I want a complete SGBD lesson?","I want a complete database course?","I want a complete database lesson?","I want a SGBD lesson?","Please do you have any SGBD course?","Please do you have any SGBD lesson?","Please do you have any database course?","Please do you have any database lesson?","Can i find a course database?","Can i find a course SGBD?","Can i find a database course?","Can i find a SGBD course?","I want a full SGBD course?","I want a full database course?","I want to see the SGBD course?","I want to consult the course on SGBD?","I want to consult the course of SGBD?","I want to consult the SGBD course?","SGBD?","Join the SGBD course?"],
+      "responses":[
+            "Here is the link to the course : <a href='https://drive.google.com/drive/folders/1rcmLbu1ZljoKseaS1FqxsK_OV2xFbrt5?usp=share_link' target='_blank'>SgbdCourse.com</a>",
+            "Click here to access the course : <a href='https://drive.google.com/drive/folders/1rcmLbu1ZljoKseaS1FqxsK_OV2xFbrt5?usp=share_link' target='_blank'>SgbdCourse.com</a>"
+      ]
+    },
+    {
+      "tag":"Cour SGBD",
+      "patterns":["Je veux un cours SGBD?", "Je veux une leçon de SGBD?", "Je veux un cours SGBD complet?"," Je veux un cours complet de SGBD?" ,"Je veux une leçon complete de SGBD?"," Je veux une leçon SGBD complete?", "Avez-vous un cours SGBD?", "Avez-vous un cours de SGBD?", "Avez-vous une leçon SGBD?", "Puis-je trouver un cours SGBD?", "Est ce que je peux trouver un cours de SGBD?", "Pourrais-je trouver un cours de SGBD?", "Puis-je trouver une leçon de SGBD?", "Je veux un cours au SGBD?", "J'ai besoin d'un cours de SGBD?", "J'ai besoin d'une leçon SGBD?","Je veux un cours base de donnees?", "Je veux une leçon de base de donnees?", "Je veux un cours base de donnees complet?"," Je veux un cours complet de base de donnees?" ,"Je veux une leçon complete de base de donnees?"," Je veux une leçon base de donnees complete?", "Avez-vous un cours base de donnees?", "Avez-vous un cours de base de donnees?", "Avez-vous une leçon base de donnees?", "Puis-je trouver un cours base de donnees?", "Est ce que je peux trouver un cours de base de donnees?", "Pourrais-je trouver un cours de base de donnees?", "Puis-je trouver une leçon de base de donnees?", "Je veux un cours au base de donnees?", "J'ai besoin d'un cours de SGBD?", "J'ai besoin d'une leçon base de donnees?"],
+      "responses":[
+            "Voici le lien vers le cours : <a href='https://drive.google.com/drive/folders/1rcmLbu1ZljoKseaS1FqxsK_OV2xFbrt5?usp=share_link' target='_blank'>CourSgbd.com</a>",
+            "Cliquez ici pour acceder au cours : <a href='https://drive.google.com/drive/folders/1rcmLbu1ZljoKseaS1FqxsK_OV2xFbrt5?usp=share_link' target='_blank'>CourSgbd.com</a>"
+      ]
+    },
+    {
+      "tag":"SGBD TP",
+      "patterns":["I want exercises on SGBD?","I want practical work on SGBD?","I want TP on SGBD?","I want SGBD practical work?","I want SGBD exercises?","I SGBD practical work?", "SGBD exercices?", "Please, do you have any SGBD exercises?"," Please, do rou have any SGBD practical work?","Do you have any SGBD exercises?" , "Do you have any SGBD practical work?", "Can i find SGBD exercises?", "Can i find SGBD practical work?", "I need SGBD practical work?", "I need SGBD exercises?","I want exercises on database?","I want practical work on database?","I want TP on databse?","I want databse practical work?","I want database exercises?","I database practical work?", "database exercices?", "Please, do you have any database exercises?"," Please, do rou have any database practical work?","Do you have any database exercises?" , "Do you have any database practical work?", "Can i find databse exercises?", "Can i find databse practical work?", "I need databse practical work?", "I need database exercises?"],
+      "responses":[
+            "Here is the link to the practical work : <a href='https://drive.google.com/drive/folders/11RUvXcZSf8sSYQlwpTLHlenV3zT3gCSy?usp=share_link' target='_blank'>SgbdPracticalWork.com</a>",
+            "Click here to access the practical work : <a href='https://drive.google.com/drive/folders/11RUvXcZSf8sSYQlwpTLHlenV3zT3gCSy?usp=share_link' target='_blank'>SgbdPracticalWork.com</a>"
+      ]
+    },
+    {
+      "tag":"TP SGBD",
+      "patterns":["Je veux des TP sur SGBD?", "Je veux des travaux pratiques sur SGBD?", "Je veux des exercices sur SGBD?", "Avez-vous des exercices sur SGBD?", "Avez-vous des travaux pratiques sur SGBD?", "Puis-je trouver des exercices sur SGBD?" ,"Puis-je trouver des travaux pratiques sur SGBD?", "J'ai besoin d'exercices sur SGBD?","J'ai besoin des travaux pratiques sur SGBD?", "Est ce que je veux trouver des exercices sur SGBD?", "Est ce que je veux trouver des travaux pratiques sur SGBD?","Je veux des TP sur la base de donnees?", "Je veux des travaux pratiques sur la base de donnees?", "Je veux des exercices sur la base de donnees?", "Avez-vous des exercices sur la base de donnees?", "Avez-vous des travaux pratiques sur la base de donnees?", "Puis-je trouver des exercices sur la base de donnees?" ,"Puis-je trouver des travaux pratiques sur la base de donnees?", "J'ai besoin d'exercices sur la base de donnees?","J'ai besoin des travaux pratiques sur la base de donnees?", "Est ce que je veux trouver des exercices sur la base de donnees?", "Est ce que je veux trouver des travaux pratiques sur la base de donnees?"],
+      "responses":[
+            "Voici le lien vers les travaux pratiques : <a href='https://drive.google.com/drive/folders/11RUvXcZSf8sSYQlwpTLHlenV3zT3gCSy?usp=share_link' target='_blank'>TP-SGBD.com</a>",
+            "Cliquez ici pour acceder aux travaux pratiques : <a href='https://drive.google.com/drive/folders/11RUvXcZSf8sSYQlwpTLHlenV3zT3gCSy?usp=share_link' target='_blank'>TP-SGBD.com</a>"
+      ]
+    },
+    {
+      "tag":"SGBD Test",
+      "patterns":["I want a SGBD control?" ,"I want a SGBD test?", " I want a SGBD exam? ", "SGBD exam? "," SGBD control?", " SGBD test?", "Control of SGBD?", "Test of SGBD ?", "Exam of SGBD ?", "Do you have any SGBD control?","Do you have any SGBD exam?","Do you have any SGBD test?", "Can i find the SGBD exam?","Can i find the SGBD control?","Can i find the SGBD test?","I need a SGBD control?","I need a SGBD test?","I need a SGBD exam?","Can i find a SGBD control?", "Can i find a SGBD test?","Can i find a SGBD exam?","I want an exam about SGBD?","I want a test about SGBD ?","I want a control about SGBD ?","I want a database control?" ,"I want a database test?", " I want a database exam? ", " database exam? "," database control?", " database test?", "Control of database ?", "Test of database ?", "Exam of database ?", "Do you have any database control?","Do you have any database exam?","Do you have any database test?", "Can i find the database exam?","Can i find the database control?","Can i find the database test?","I need a database control?","I need a database test?","I need a database exam?","Can i find a database control?", "Can i find a database test?","Can i find a database exam?","I want an exam about database ?","I want a test about database ?","I want a control about database ?"],
+      "responses":[
+         "Here is the link to the SGBD controls : <a href='https://drive.google.com/drive/folders/1XDoa3tOZ9VK3jo6kCbtXxiKOpsg1RG8I?usp=share_link' target='_blank'>SgbdControl.com</a>",
+         "Click here to access the SGBD controls : <a href='https://drive.google.com/drive/folders/1XDoa3tOZ9VK3jo6kCbtXxiKOpsg1RG8I?usp=share_link' target='_blank'>SgbdControl.com</a>"
+      ]
+    },
+    {
+      "tag":"Controle SGBD",
+      "patterns":["Je veux un controle de SGBD ?","Je veux un test de SGBD ?","Je veux un examen de SGBD ?","Examen SGBD ?","Controle SGBD ?","Test SGBD ?","Controle de SGBD ?","Test de SGBD ?","Examen de SGBD ?","Avez-vous un controle de SGBD ?","Avez-vous un examen de SGBD ?","Avez-vous un test de SGBD ?","Avez-vous un controle SGBD ?","Avez-vous un examen SGBD ?","Avez-vous un test SGBD ?","Puis-je trouver un examen de  SGBD ?","Puis-je trouver un controle de SGBD ?","Puis-je trouver un test de SGBD ?","J'ai besoin d'un controle de SGBD ?","J'ai besoin d'un test de SGBD ?","J'ai besoin d'un examen de SGBD ?","Je veux un controle de base de donnees ?","Je veux un test de base de donnees ?","Je veux un examen de base de donnees ?","Examen base de donnees ?","Controle base de donnees ?","Test base de donnees ?","Controle de base de donnees ?","Test de base de donnees ?","Examen de base de donnees ?","Avez-vous un controle de base de donnees ?","Avez-vous un examen de base de donnees ?","Avez-vous un test de SGBD ?","Avez-vous un controle base de donnees ?","Avez-vous un examen base de donnees ?","Avez-vous un test base de donnees ?","Puis-je trouver un examen de base de donnees ?","Puis-je trouver un controle de base de donnees ?","Puis-je trouver un test de base de donnees ?","J'ai besoin d'un controle de base de donnees ?","J'ai besoin d'un test de base de donnees ?","J'ai besoin d'un examen de base de donnees ?"],
+      "responses":[
+            "Voici le lien vers l'examen du SGBD : <a href='https://drive.google.com/drive/folders/1XDoa3tOZ9VK3jo6kCbtXxiKOpsg1RG8I?usp=share_link' target='_blank'>ExamenSgbd.com</a>",
+            "Cliquez ici pour acceder a l'examen du SGBD : <a href='https://drive.google.com/drive/folders/1XDoa3tOZ9VK3jo6kCbtXxiKOpsg1RG8I?usp=share_link' target='_blank'>ExamenSgbd.com</a>"
+      ]
+    },
+    {
+      "tag":"Reseau Course",
+      "patterns":["I want a reseau course?", "I want a reseau lesson?","I want a complete reseau course?","I want a complete reseau lesson?","Please do you have any reseau course?","Do you have any reseau course?","Please do you have any reseau lesson?","Do you have any reseau lesson?","Can i find a reseau course?","Can i find a reseau lesson?","I need a reseau course?","I need a reseau lesson?","Please, i need a reseau course?","Please, i need a reseau lesson?","I want a course in the reseau?","I want a full reseau course?","I need a course reseau?","I need a lseson reseau?","I want to see the reseau course?","I want to consult the course on reseau?","I want to consult the course of reseau?","I want to consult the reseau course?","reseau?","Join the reseau course?"],
+      "responses":[
+          "Here is the link to the course : <a href='https://drive.google.com/drive/folders/1YZTT6WT0-qECCzj_wRDkLsh5BfLkDfqW?usp=share_link' target='_blank'>ReseauCourse.com</a>",
+          "Click here to access the course : <a href='https://drive.google.com/drive/folders/1YZTT6WT0-qECCzj_wRDkLsh5BfLkDfqW?usp=share_link' target='_blank'>ReseauCourse.com</a>"
+      ]
+    },
+    {
+      "tag":"Cour Reseau",
+      "patterns":["Je veux un cours reseau?", "Je veux une leçon de reseau?", "Je veux un cours reseau complet?"," Je veux un cours complet de reseau?" ,"Je veux une leçon complete de reseau?"," Je veux une leçon reseau complete?", "Avez-vous un cours reseau?", "Avez-vous un cours de reseau?", "Avez-vous une leçon reseau?", "Puis-je trouver un cours reseau?", "Est ce que je peux trouver un cours de reseau?", "Pourrais-je trouver un cours de reseau?", "Puis-je trouver une leçon de reseau?", "Je veux un cours au reseau?", "J'ai besoin d'un cours de reseau?", "J'ai besoin d'une leçon reseau?","Cour Reseau?","Leçon Reseau?"],
+      "responses":[
+          "Voici le lien vers le cours : <a href='https://drive.google.com/drive/folders/1YZTT6WT0-qECCzj_wRDkLsh5BfLkDfqW?usp=share_link' target='_blank'>CourReseau.com</a>",
+          "Cliquez ici pour acceder au cours : <a href='https://drive.google.com/drive/folders/1YZTT6WT0-qECCzj_wRDkLsh5BfLkDfqW?usp=share_link' target='_blank'>CourReseau.com</a>"
+      ]
+    },
+    {
+      "tag":"Youtube Playlist Reseau",
+      "patterns":["I want a reseau course on Youtube?","I want reseau course on Youtube?","I want a reseau playlist on Youtube?","I need a reseau playlist on Youtube?","Can i find a playlist about reseau course?","Can i find a reseau playlist?","Do you have a playlist of reseau on Youtube?","Do you have a playlist about reseau on Youtube?","Do you have a playlist about reseau course?","Do you have a reseau playlist on Youtube?","Reseau course Playlist?","Reseau course on Youtube?","Reseau on Youtube?","Link to reseau playlist on Youtube?","Link to reseau course on Youtube?","Best playlist of reseau?"],
+      "responses":[
+          "Here is the link to the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLh330TDu4_HAye58MbG6Yto0MDEAd9Icp' target='_blank'>ReseauYoutube.com</a>",
+          "Click here to access the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLh330TDu4_HAye58MbG6Yto0MDEAd9Icp' target='_blank'>ReseauYoutube.com</a>"
+      ]
+    },
+    {
+      "tag":"Youtube Playlist Reseau ",
+      "patterns":["Je veux un cours en reseau sur Youtube ?","Je veux un cours de reseau sur Youtube?","Je veux une playlist de reseau sur Youtube ?","Puis-je trouver une playlist sur le cours en reseau ?","Puis-je trouver une playlist reseau ?","Avez-vous une playlist de reseau sur Youtube?","Cours Reseau sur Youtube ?","J'ai besoin d'une playlist reseau sur Youtube?","Je veux un lien vers la playlist du reseau sur Youtube ?","Lien vers cours en reseau sur Youtube ?"],
+      "responses":[
+          "Voici le lien vers le cours sur Youtube : <a href='https://www.youtube.com/playlist?list=PLh330TDu4_HAye58MbG6Yto0MDEAd9Icp' target='_blank'>ReseauYoutube.com</a>",
+          "Cliquez ici pour acceder au cours sur Youtube: <a href='https://www.youtube.com/playlist?list=PLh330TDu4_HAye58MbG6Yto0MDEAd9Icp' target='_blank'>ReseauYoutube.com</a>"
+      ]
+    },
+    {
+      "tag":"Reseau practical work",
+      "patterns":["I want exercises on reseau?","I want practical work on reseau?","I want TP on reseau?","I want reseau practical work?","I want reseau exercises?","Reseau practical work?", "Reseau exercices?", "Please, do you have any reseau exercises?"," Please, do rou have any reseau practical work?","Do you have any reseau exercises?" , "Do you have any reseau practical work?", "Can i find reseau exercises?", "Can i find reseau practical work?", "I need reseau practical work?", "I need reseau exercises?"],
+      "responses":[
+          "Here is the link to the practical work : <a href='https://drive.google.com/drive/folders/17pmb0EcM_epUSTJ-Dn4swl-TCm55vWyr?usp=share_link' target='_blank'>ReseauPracticalWork.com</a>",
+          "Click here to access the practical work : <a href='https://drive.google.com/drive/folders/17pmb0EcM_epUSTJ-Dn4swl-TCm55vWyr?usp=share_link' target='_blank'>ReseauPracticalWork.com</a>"
+      ]
+    },
+    {
+      "tag":"TP reseau",
+      "patterns":["Je veux des TP sur reseau?", "Je veux des travaux pratiques sur reseau?", "Je veux des exercices sur reseau?", "Avez-vous des exercices sur reseau?", "Avez-vous des travaux pratiques sur reseau?", "Puis-je trouver des exercices sur reseau?" ,"Puis-je trouver des travaux pratiques sur reseau?", "J'ai besoin d'exercices sur reseau?","J'ai besoin des travaux pratiques sur reseau?", "Est ce que je veux trouver des exercices sur reseau?", "Est ce que je veux trouver des travaux pratiques sur reseau?","TP reseau?","Travaux pratiques reseau?","Exercices Reseau?","TP sur reseau?","Travaux pratiques sur reseau?","Exercices sur reseau?"],
+      "responses":[
+          "Voici le lien vers les travaux pratiques : <a href='https://drive.google.com/drive/folders/17pmb0EcM_epUSTJ-Dn4swl-TCm55vWyr?usp=share_link' target='_blank'>TP-Reseau.com</a>",
+          "Cliquez ici pour acceder aux travaux pratiques : <a href='https://drive.google.com/drive/folders/17pmb0EcM_epUSTJ-Dn4swl-TCm55vWyr?usp=share_link' target='_blank'>TP-Reseau.com</a>"
+      ]
+    },
+    {
+      "tag":"Reseau Test",
+      "patterns":["I want a reseau control?" ,"I want a reseau test?", " I want a reseau exam? ", "reseau exam? "," reseau control?", " reseau test?", "Control of reseau?", "Test of reseau ?", "Exam of reseau ?", "Do you have any reseau control?","Do you have any reseau exam?","Do you have any reseau test?", "Can i find the reseau exam?","Can i find the reseau control?","Can i find the reseau test?","I need a reseau control?","I need a reseau test?","I need a reseau exam?","Can i find a reseau control?", "Can i find a reseau test?","Can i find a reseau exam?","I want an exam about reseau?","I want a test about reseau ?","I want a control about reseau ?"],
+      "responses":[
+          "Here is the link to the reseau controls : <a href='https://drive.google.com/drive/folders/1WNryFgObjg3uP7j_2_q5u-VBHcjzxrIU?usp=share_link' target='_blank'>ReseauControl.com</a>",
+          "Click here to access the reseau controls : <a href='https://drive.google.com/drive/folders/1WNryFgObjg3uP7j_2_q5u-VBHcjzxrIU?usp=share_link' target='_blank'>ReseauControl.com</a>"
+      ]
+    },
+    {
+      "tag":"Controle reseau",
+      "patterns":["Je veux un controle de reseau ?","Je veux un test de reseau ?","Je veux un examen de reseau ?","Examen reseau ?","Controle reseau ?","Test reseau ?","Controle de reseau ?","Test de reseau ?","Examen de reseau ?","Avez-vous un controle de reseau ?","Avez-vous un examen de reseau ?","Avez-vous un test de reseau ?","Avez-vous un controle reseau ?","Avez-vous un examen reseau ?","Avez-vous un test reseau ?","Puis-je trouver un examen de reseau ?","Puis-je trouver un controle de reseau ?","Puis-je trouver un test de reseau ?","J'ai besoin d'un controle de reseau ?","J'ai besoin d'un test de reseau ?","J'ai besoin d'un examen de reseau ?"],
+      "responses":[
+          "Voici le lien vers l'examen du reseau : <a href='https://drive.google.com/drive/folders/1WNryFgObjg3uP7j_2_q5u-VBHcjzxrIU?usp=share_link' target='_blank'>ExamenReseau.com</a>",
+          "Cliquez ici pour acceder a l'examen du reseau : <a href='https://drive.google.com/drive/folders/1WNryFgObjg3uP7j_2_q5u-VBHcjzxrIU?usp=share_link' target='_blank'>ExamenReseau.com</a>"
+      ]
+    },
+    {
+      "tag":"JAVA course",
+      "patterns":["I want a JAVA course?", "I want a JAVausson?","I want a complete JAVA course?","I want a complete JAVausson?","Please do you have any JAVA course?","Do you have any JAVA course?","Please do you have any JAVausson?","Do you have any JAVausson?","Can i find a JAVA course?","Can i find a JAVausson?","I need a JAVA course?","I need a JAVausson?","Please, i need a JAVA course?","Please, i need a JAVausson?","I want a course in the JAVA?","I want a full JAVA course?","I need a course JAVA?","I need ausson JAVA?","I want to see the JAVA course?","I want to consult the course on JAVA?","I want to consult the course of JAVA?","I want to consult the JAVA course?","JAVA course?","Join the JAVA course?","JAVausson?"],
+      "responses":[
+          "Here is the link to the course : <a href='https://drive.google.com/drive/folders/1CnwjotCh4voiPzrF85KRhx1O0JLxNyE2?usp=share_link' target='_blank'>JAVACourse.com</a>",
+          "Click here to access the course : <a href='https://drive.google.com/drive/folders/1CnwjotCh4voiPzrF85KRhx1O0JLxNyE2?usp=share_link' target='_blank'>JAVACourse.com</a>"
+      ]
+    },
+    {
+      "tag":"Cour JAVA",
+      "patterns":["Je veux un cours JAVA?", "Je veux une leçon de JAVA?", "Je veux un cours JAVA complet?"," Je veux un cours complet de JAVA?" ,"Je veux une leçon complete de JAVA?"," Je veux une leçon JAVA complete?", "Avez-vous un cours JAVA?", "Avez-vous un cours de JAVA?", "Avez-vous une leçon JAVA?", "Puis-je trouver un cours JAVA?", "Est ce que je peux trouver un cours de JAVA?", "Pourrais-je trouver un cours de JAVA?", "Puis-je trouver une leçon de JAVA?", "Je veux un cours au JAVA?", "J'ai besoin d'un cours de JAVA?", "J'ai besoin d'une leçon JAVA?","Cour JAVA?","Leçon JAVA?"],
+      "responses":[
+          "Voici le lien vers le cours : <a href='https://drive.google.com/drive/folders/1CnwjotCh4voiPzrF85KRhx1O0JLxNyE2?usp=share_link' target='_blank'>CourJAVA.com</a>",
+          "Cliquez ici pour acceder au cours : <a href='https://drive.google.com/drive/folders/1CnwjotCh4voiPzrF85KRhx1O0JLxNyE2?usp=share_link' target='_blank'>CourJAVA.com</a>"]
+    },
+    {
+      "tag":"Youtube Playlist JAVA",
+      "patterns":["I want a JAVA course on Youtube?","I want JAVA course on Youtube?","I want a JAVA playlist on Youtube?","I need a JAVA playlist on Youtube?","Can i find a playlist about JAVA course?","Can i find a JAVA playlist?","Do you have a playlist of JAVA on Youtube?","Do you have a playlist about JAVA on Youtube?","Do you have a playlist about JAVA course?","Do you have a JAVA playlist on Youtube?","JAVA course Playlist?","JAVA course on Youtube?","JAVA on Youtube?","Link to JAVA playlist on Youtube?","Link to JAVA course on Youtube?","Best playlist of JAVA?"],
+      "responses":[
+          "Here is the link to the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLLVmUqYuyQNYMFObvYujnbuA_su4fdVvc' target='_blank'>JAVAYoutube.com</a>",
+          "Click here to access the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLLVmUqYuyQNYMFObvYujnbuA_su4fdVvc' target='_blank'>JAVAYoutube.com</a>"
+      ]
+    },
+    {
+      "tag":"Youtube Playlist JAVA ",
+      "patterns":["Je veux un cours en JAVA sur Youtube ?","Je veux un cours de JAVA sur Youtube?","Je veux une playlist de JAVA sur Youtube ?","Puis-je trouver une playlist sur le cours en JAVA ?","Puis-je trouver une playlist JAVA ?","Avez-vous une playlist de JAVA sur Youtube?","Cours JAVA sur Youtube ?","J'ai besoin d'une playlist JAVA sur Youtube?","Je veux un lien vers la playlist du JAVA sur Youtube ?","Lien vers cours en JAVA sur Youtube ?"],
+      "responses":[
+          "Voici le lien vers le cours sur Youtube : <a href='https://www.youtube.com/playlist?list=PLLVmUqYuyQNYMFObvYujnbuA_su4fdVvc' target='_blank'>JAVAYoutube.com</a>",
+          "Cliquez ici pour acceder au cours sur Youtube: <a href='https://www.youtube.com/playlist?list=PLLVmUqYuyQNYMFObvYujnbuA_su4fdVvc' target='_blank'>JAVAYoutube.com</a>"
+      ]
+    },
+     {
+      "tag":"JAVA practical work",
+      "patterns":["I want exercises on JAVA?","I want practical work on JAVA?","I want TP on JAVA?","I want JAVA practical work?","I want JAVA exercises?","JAVA practical work?", "JAVA exercices?", "Please, do you have any JAVA exercises?"," Please, do rou have any JAVA practical work?","Do you have any JAVA exercises?" , "Do you have any JAVA practical work?", "Can i find JAVA exercises?", "Can i find JAVA practical work?", "I need JAVA practical work?", "I need JAVA exercises?"],
+      "responses":[
+          "Here is the link to the practical work : <a href='https://drive.google.com/drive/folders/1jN1uFhaRVykep9YF1KrjADEPxmL1ZkjV?usp=share_link' target='_blank'>JAVAPracticalWork.com</a>",
+          "Click here to access the practical work : <a href='https://drive.google.com/drive/folders/1jN1uFhaRVykep9YF1KrjADEPxmL1ZkjV?usp=share_link' target='_blank'>JAVAPracticalWork.com</a>"
+      ]
+    },
+    {
+      "tag":"TP JAVA",
+      "patterns":["Je veux des TP sur JAVA?", "Je veux des travaux pratiques sur JAVA?", "Je veux des exercices sur JAVA?", "Avez-vous des exercices sur JAVA?", "Avez-vous des travaux pratiques sur JAVA?", "Puis-je trouver des exercices sur JAVA?" ,"Puis-je trouver des travaux pratiques sur JAVA?", "J'ai besoin d'exercices sur JAVA?","J'ai besoin des travaux pratiques sur JAVA?", "Est ce que je veux trouver des exercices sur JAVA?", "Est ce que je veux trouver des travaux pratiques sur JAVA?","TP JAVA?","Travaux pratiques JAVA?","Exercices JAVA?","TP sur JAVA?","Travaux pratiques sur JAVA?","Exercices sur JAVA?"],
+      "responses":[
+          "Voici le lien vers les travaux pratiques : <a href='https://drive.google.com/drive/folders/1jN1uFhaRVykep9YF1KrjADEPxmL1ZkjV?usp=share_link' target='_blank'>TP-Java.com</a>",
+          "Cliquez ici pour acceder aux travaux pratiques : <a href='https://drive.google.com/drive/folders/1jN1uFhaRVykep9YF1KrjADEPxmL1ZkjV?usp=share_link' target='_blank'>TP-Java.com</a>"
+      ]
+    },
+    {
+      "tag":"JAVA Test",
+      "patterns":["I want a JAVA control?" ,"I want a JAVA test?", " I want a JAVA exam? ", "JAVA exam? "," JAVA control?", " JAVA test?", "Control of JAVA?", "Test of JAVA ?", "Exam of JAVA ?", "Do you have any JAVA control?","Do you have any JAVA exam?","Do you have any JAVA test?", "Can i find the JAVA exam?","Can i find the JAVA control?","Can i find the JAVA test?","I need a JAVA control?","I need a JAVA test?","I need a JAVA exam?","Can i find a JAVA control?", "Can i find a JAVA test?","Can i find a JAVA exam?","I want an exam about JAVA?","I want a test about JAVA ?","I want a control about JAVA ?"],
+      "responses":[
+          "Here is the link to the reseau controls : <a href='https://drive.google.com/drive/folders/1nxUW4usKAAp1yQf8mChqmEwoJ065j5zm?usp=share_link' target='_blank'>JavaControl.com</a>",
+          "Click here to access the reseau controls : <a href='https://drive.google.com/drive/folders/1nxUW4usKAAp1yQf8mChqmEwoJ065j5zm?usp=share_link' target='_blank'>JavaControl.com</a>"
+      ]
+    },
+    {
+      "tag":"Controle JAVA",
+      "patterns":["Je veux un controle de JAVA ?","Je veux un test de JAVA ?","Je veux un examen de JAVA ?","Examen JAVA ?","Controle JAVA ?","Test JAVA ?","Controle de JAVA ?","Test de JAVA ?","Examen de JAVA ?","Avez-vous un controle de JAVA ?","Avez-vous un examen de JAVA ?","Avez-vous un test de JAVA ?","Avez-vous un controle JAVA ?","Avez-vous un examen JAVA ?","Avez-vous un test JAVA ?","Puis-je trouver un examen de JAVA ?","Puis-je trouver un controle de JAVA ?","Puis-je trouver un test de JAVA ?","J'ai besoin d'un controle de JAVA ?","J'ai besoin d'un test de JAVA ?","J'ai besoin d'un examen de JAVA ?"],
+      "responses":[
+          "Voici le lien vers l'examen du reseau : <a href='https://drive.google.com/drive/folders/1nxUW4usKAAp1yQf8mChqmEwoJ065j5zm?usp=share_link' target='_blank'>ExamenJava.com</a>",
+          "Cliquez ici pour acceder a l'examen du reseau : <a href='https://drive.google.com/drive/folders/1nxUW4usKAAp1yQf8mChqmEwoJ065j5zm?usp=share_link' target='_blank'>ExamenJava.com</a>"
+      ]
+    },
+    {
+      "tag":"UML Course",
+      "patterns":["I want a UML course?", "I want a UML lesson?","I want a complete UML course?","I want a complete UML lesson?","Please do you have any UML course?","Do you have any UML course?","Please do you have any UML lesson?","Do you have any UML lesson?","Can i find a UML course?","Can i find a UML lesson?","I need a UML course?","I need a UML lesson?","Please, i need a UML course?","Please, i need a UML lesson?","I want a course in the UML?","I want a full UML course?","I need a course UML?","I need ausson UML?","I want to see the reseau UML?","I want to consult the course on UML?","I want to consult the course of UML?","I want to consult the UML course?","UML course?","Join the UML course?"],
+      "responses":[
+          "Here is the link to the course : <a href='https://drive.google.com/drive/folders/1TB6pgLs_t6DkY_Pn3ioAv3_vdYU1XIxF?usp=share_link' target='_blank'>UMLCourse.com</a>",
+          "Click here to access the course : <a href='https://drive.google.com/drive/folders/1TB6pgLs_t6DkY_Pn3ioAv3_vdYU1XIxF?usp=share_link' target='_blank'>UMLCourse.com</a>"
+      ]
+    },
+    {
+      "tag":"Cour UML",
+      "patterns":["Je veux un cours UML?", "Je veux une leçon de UML?", "Je veux un cours UML complet?"," Je veux un cours complet de UML?" ,"Je veux une leçon complete de UML?"," Je veux une leçon UML complete?", "Avez-vous un cours UML?", "Avez-vous un cours de UML?", "Avez-vous une leçon UML?", "Puis-je trouver un cours UML?", "Est ce que je peux trouver un cours de UML?", "Pourrais-je trouver un cours de UML?", "Puis-je trouver une leçon de UML?", "Je veux un cours au UML?", "J'ai besoin d'un cours de UML?", "J'ai besoin d'une leçon UML?","Cour UML?","Leçon UML?"],
+      "responses":[
+          "Voici le lien vers le cours : <a href='https://drive.google.com/drive/folders/1TB6pgLs_t6DkY_Pn3ioAv3_vdYU1XIxF?usp=share_link' target='_blank'>CourUML.com</a>",
+          "Cliquez ici pour acceder au cours : <a href='https://drive.google.com/drive/folders/1TB6pgLs_t6DkY_Pn3ioAv3_vdYU1XIxF?usp=share_link' target='_blank'>CourUML.com</a>"
+      ]
+    },
+    {
+      "tag":"Youtube Playlist UML",
+      "patterns":["I want a UML course on Youtube?","I want UML course on Youtube?","I want a UML playlist on Youtube?","I need a UML playlist on Youtube?","Can i find a playlist about UML course?","Can i find a UML playlist?","Do you have a playlist of UML on Youtube?","Do you have a playlist about UML on Youtube?","Do you have a playlist about UML course?","Do you have a UML playlist on Youtube?","UML course Playlist?","UML course on Youtube?","UML on Youtube?","Link to UML playlist on Youtube?","Link to UML course on Youtube?","Best playlist of UML?"],
+      "responses":[
+          "Here is the link to the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLcBrXwDrVYZXMHawflXnn_EkVqvdnCX8O' target='_blank'>UMLYoutube.com</a>",
+          "Click here to access the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLcBrXwDrVYZXMHawflXnn_EkVqvdnCX8O' target='_blank'>UMLYoutube.com</a>"
+      ]
+    },
+    {
+      "tag":"Youtube Playlist UML ",
+      "patterns":["Je veux un cours en UML sur Youtube ?","Je veux un cours de UML sur Youtube?","Je veux une playlist de UML sur Youtube ?","Puis-je trouver une playlist sur le cours en UML ?","Puis-je trouver une playlist UML ?","Avez-vous une playlist de UML sur Youtube?","Cours UML sur Youtube ?","J'ai besoin d'une playlist UML sur Youtube?","Je veux un lien vers la playlist du UML sur Youtube ?","Lien vers cours en UML sur Youtube ?"],
+      "responses":[
+          "Voici le lien vers le cours sur Youtube : <a href='https://www.youtube.com/playlist?list=PLcBrXwDrVYZXMHawflXnn_EkVqvdnCX8O' target='_blank'>CourUMLYoutube.com</a>",
+          "Cliquez ici pour acceder au cours sur Youtube: <a href='https://www.youtube.com/playlist?list=PLcBrXwDrVYZXMHawflXnn_EkVqvdnCX8O' target='_blank'>CourUMLYoutube.com</a>"
+      ]
+    },
+    {
+      "tag":"UML practical work",
+      "patterns":["I want exercises on UML?","I want practical work on UML?","I want TP on UML?","I want UML practical work?","I want UML exercises?","UML practical work?", "UML exercices?", "Please, do you have any UML exercises?"," Please, do rou have any UML practical work?","Do you have any UML exercises?" , "Do you have any UML practical work?", "Can i find UML exercises?", "Can i find UML practical work?", "I need UML practical work?", "I need UML exercises?"],
+      "responses":[
+          "Here is the link to the practical work : <a href='https://drive.google.com/drive/folders/1L27zuYHqrGqMLOifbmlUd29GVxte0_vU?usp=share_link' target='_blank'>UMLPracticalWork.com</a>",
+          "Click here to access the practical work : <a href='https://drive.google.com/drive/folders/1L27zuYHqrGqMLOifbmlUd29GVxte0_vU?usp=share_link' target='_blank'>UMLPracticalWork.com</a>"
+      ]
+    },
+    {
+      "tag":"TP UML",
+      "patterns":["Je veux des TP sur UML?", "Je veux des travaux pratiques sur UML?", "Je veux des exercices sur UML?", "Avez-vous des exercices sur UML?", "Avez-vous des travaux pratiques sur UML?", "Puis-je trouver des exercices sur UML?" ,"Puis-je trouver des travaux pratiques sur UML?", "J'ai besoin d'exercices sur UML?","J'ai besoin des travaux pratiques sur UML?", "Est ce que je veux trouver des exercices sur UML?", "Est ce que je veux trouver des travaux pratiques sur UML?","TP UML?","Travaux pratiques UML?","Exercices UML?","TP sur UML?","Travaux pratiques sur UML?","Exercices sur UML?"],
+      "responses":[
+          "Voici le lien vers les travaux pratiques : <a href='https://drive.google.com/drive/folders/1L27zuYHqrGqMLOifbmlUd29GVxte0_vU?usp=share_link' target='_blank'>TP-UML.com</a>",
+          "Cliquez ici pour acceder aux travaux pratiques : <a href='https://drive.google.com/drive/folders/1L27zuYHqrGqMLOifbmlUd29GVxte0_vU?usp=share_link' target='_blank'>TP-UML.com</a>"
+      ]
+    },
+    {
+      "tag":"UML Test",
+      "patterns":["I want a UML control?" ,"I want a UML test?", " I want a UML exam? ", "UML exam? "," UML control?", "UML test?", "Control of UML?", "Test of UML ?", "Exam of UML ?", "Do you have any UML control?","Do you have any UML exam?","Do you have any UML test?", "Can i find the UML exam?","Can i find the UML control?","Can i find the UML test?","I need a UML control?","I need a UML test?","I need a UML exam?","Can i find a UML control?", "Can i find a UML test?","Can i find a UML exam?","I want an exam about UML?","I want a test about UML ?","I want a control about UML ?"],
+      "responses":[
+          "Here is the link to the reseau controls : <a href='https://drive.google.com/drive/folders/1Y-I2TcaMxq24s66F-LDfLnoVCHx2keju?usp=share_link' target='_blank'>UMLControl.com</a>",
+          "Click here to access the reseau controls : <a href='https://drive.google.com/drive/folders/1Y-I2TcaMxq24s66F-LDfLnoVCHx2keju?usp=share_link' target='_blank'>UMLControl.com</a>"
+      ]
+    },
+    {
+      "tag":"Controle UML",
+      "patterns":["Je veux un controle de UML ?","Je veux un test de UML ?","Je veux un examen de UML ?","Examen UML ?","Controle UML ?","Test UML ?","Controle de UML ?","Test de UML ?","Examen de UML ?","Avez-vous un controle de UML ?","Avez-vous un examen de UML ?","Avez-vous un test de UML ?","Avez-vous un controle UML ?","Avez-vous un examen UML ?","Avez-vous un test UML ?","Puis-je trouver un examen de UML ?","Puis-je trouver un controle de UML ?","Puis-je trouver un test de UML ?","J'ai besoin d'un controle de UML ?","J'ai besoin d'un test de UML ?","J'ai besoin d'un examen de UML ?"],
+      "responses":[
+          "Voici le lien vers l'examen du reseau : <a href='https://drive.google.com/drive/folders/1Y-I2TcaMxq24s66F-LDfLnoVCHx2keju?usp=share_link' target='_blank'>ExamenUML.com</a>",
+          "Cliquez ici pour acceder a l'examen du reseau : <a href='https://drive.google.com/drive/folders/1Y-I2TcaMxq24s66F-LDfLnoVCHx2keju?usp=share_link' target='_blank'>ExamenUML.com</a>"
+      ]
+    },
+    {
+      "tag": "html css course ",
+      "patterns": ["I want to see the html and css course",
+         "I want to consult the course on html and css",
+         "I want to consult the course of html and css","I want to consult the html and css course","course html and css","join the css and html course","css and html"],
+      "responses": [
+           "Here are some links to the html and css course  : <a href='https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3' target='_blank'>HtmlCssCourse.com</a>",
+           "Click here for another html, css course: <a href='https://www.cours-gratuit.com/cours-developpement-web/cours-complet-programmation-web-html-et-css-pdf' target='_blank'>HtmlCssCourse.com</a>",
+
+           "Here a  link of tp for html and css course  : <a href='https://drive.google.com/file/d/1CN01u20Ann6OPjFjpsNLd0K93zUy-ilF/view?usp=share_link' target='_blank'>Html-Css-tp.com</a>",
+           "second one <a href='https://docs.google.com/document/d/13rU-kGKRtNk8nYLmzyOXDAKF8dgLqEjM/edit?usp=share_link&ouid=112514403145523612049&rtpof=true&sd=true' target='_blank'>2eme_Tp_html_css</a>"
+      ]
+    },
+     {
+       "tag":"Cours html et css",
+       "patterns":["Je veux un cours html et css?", "Je veux une leçon de html et css?", "Je veux un cours html et css complet?"," Je veux un cours complet de html et css?" ,"Je veux une leçon complete de html et css?"," Je veux une leçon html et css complete?", "Avez-vous un cours html et css?", "Avez-vous un cours de html et css?", "Avez-vous une leçon html et css?", "Puis-je trouver un cours html et css?", "Est ce que je peux trouver un cours de html et css?", "Pourrais-je trouver un cours de html et css?", "Puis-je trouver une leçon de html et css?", "Je veux un cours au html et css?", "J'ai besoin d'un cours de html et css?", "J'ai besoin d'une leçon html et css?","Cour html et css?","Leçon html et css?"],
+       "responses":[
+            "Voici le lien vers le cours : <a href='https://drive.google.com/file/d/1CN01u20Ann6OPjFjpsNLd0K93zUy-ilF/view?usp=share_link' target='_blank'>Html-Css-tp.com</a>",
+            "second one <a href='https://docs.google.com/document/d/13rU-kGKRtNk8nYLmzyOXDAKF8dgLqEjM/edit?usp=share_link&ouid=112514403145523612049&rtpof=true&sd=true' target='_blank'>Courhtml et css.com</a>"]
+     },
+    {
+      "tag": "html css tp",
+      "patterns": ["I want to see the html and css tp",
+         "I want to consult the tp on html and css",
+         "I want to consult the tp of html and css","I want to consult the html and css tp","tp html and css","join the css and html tp,I want practical work on the css and html ?   I want TP on the css and html?  I want the css and html practical work?  I want the css and html exercises?  I want the css and html practical work?  css and html exercices? Please, do you have any css and html exercises? Please, do you have any  css and html practical work? Do you have any  exercises?  Do you have any  css and html practical work? Can i find css and html exercises? Can i find css and html practical work? I need css and html practical work? I need css and html exercises?"],
+      "responses": [
+        "Here a  link of tp for html and css course  : <a href='https://drive.google.com/file/d/1CN01u20Ann6OPjFjpsNLd0K93zUy-ilF/view?usp=share_link' target='_blank'>Html-Css-tp.com</a>",
+        "second one <a href='https://docs.google.com/document/d/13rU-kGKRtNk8nYLmzyOXDAKF8dgLqEjM/edit?usp=share_link&ouid=112514403145523612049&rtpof=true&sd=true' target='_blank'>2eme_Tp_html_css</a>"]
+    },
+    {
+        "tag":"TP html et css",
+        "patterns":["Je veux des TP sur html et css?", "Je veux des travaux pratiques sur html et css?", "Je veux des exercices sur html et css?", "Avez-vous des exercices sur html et css?", "Avez-vous des travaux pratiques sur html et css?", "Puis-je trouver des exercices sur html et css?" ,"Puis-je trouver des travaux pratiques sur html et css?", "J'ai besoin d'exercices sur html et css?","J'ai besoin des travaux pratiques sur html et css?", "Est ce que je veux trouver des exercices sur html et css?", "Est ce que je veux trouver des travaux pratiques sur html et css?","TP html et css?","Travaux pratiques html et css?","Exercices html et css?","TP sur html et css?","Travaux pratiques sur html et css?","Exercices sur html et css?"],
+        "responses":[
+          "Voici le lien vers les travaux pratiques : <a href='https://drive.google.com/file/d/1CN01u20Ann6OPjFjpsNLd0K93zUy-ilF/view?usp=share_link' target='_blank'>TPHtmlEtcss.com</a>"]
+
+     },
+    {
+      "tag": "html css qcm",
+      "patterns": ["I want to see the html and css qcm",
+         "I want to consult qcm on html and css ",
+         "I want to consult the qcm of html and css","I want to consult html and css qcm","qcm html and css","i need a qcm of css and html ","i'm looking for a qcm exams of html and css"],
+      "responses": [
+        "Here a  link of qcm exams for html and css course  : <a href='https://waytolearnx.com/2019/07/qcm-html-css-partie-1.html' target='_blank'>qcm_Html_css.com</a>"]
+    },
+    {
+        "tag":"Controle html et css",
+        "patterns":["Je veux un controle de html et css ?","Je veux un test de html et css ?","Je veux un examen de html et css ?","Examen html et css ?","Controle html et css ?","Test html et css ?","Controle de html et css ?","Test de html et css ?","Examen de html et css ?","Avez-vous un controle de html et css ?","Avez-vous un examen de html et css ?","Avez-vous un test de html et css ?","Avez-vous un controle html et css ?","Avez-vous un examen html et css ?","Avez-vous un test html et css ?","Puis-je trouver un examen de html et css ?","Puis-je trouver un controle de html et css ?","Puis-je trouver un test de html et css ?","J'ai besoin d'un controle de html et css ?","J'ai besoin d'un test de html et css ?","J'ai besoin d'un examen de html et css ?"],
+        "responses":[
+          "Voici le lien vers l'examen du html et css : <a href='https://drive.google.com/drive/folders/1nxUW4usKAAp1yQf8mChqmEwoJ065j5zm?usp=share_link' target='_blank'>Examenhtml et css.com</a>"]
+    },
+    {
+      "tag":"Youtube Playlist HTML/CSS",
+      "patterns":["I want a HTML/CSS course on Youtube?","I want HTML/CSS course on Youtube?","I want a HTML/CSS playlist on Youtube?","I need a HTML/CSS playlist on Youtube?","Can i find a playlist about HTML/CSS course?","Can i find a HTML/CSS playlist?","Do you have a playlist of HTML/CSS on Youtube?","Do you have a playlist about HTML/CSS on Youtube?","Do you have a playlist about HTML/CSS course?","Do you have a HTML/CSS playlist on Youtube?","HTML/CSS course Playlist?","HTML/CSS course on Youtube?","HTML/CSS on Youtube?","Link to HTML/CSS playlist on Youtube?","Link to HTML/CSS course on Youtube?","Best playlist of HTML/CSS?"],
+      "responses":[
+        "Here is the link to the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLrSOXFDHBtfE5tpw0bjMevWxMWXotiSdO' target='_blank'>HTML/CSSYoutube.com</a>",
+        "Click here to access the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLrSOXFDHBtfE5tpw0bjMevWxMWXotiSdO' target='_blank'>HTML/CSSYoutube.com</a>"
+     ]
+    },
+    {
+      "tag":"Youtube Playlist HTML/CSS ",
+      "patterns":["Je veux un cours en HTML/CSS sur Youtube ?","Je veux un cours de HTML/CSS sur Youtube?","Je veux une playlist de HTML/CSS sur Youtube ?","Puis-je trouver une playlist sur le cours en HTML/CSS ?","Puis-je trouver une playlist HTML/CSS ?","Avez-vous une playlist de HTML/CSS sur Youtube?","Cours HTML/CSS sur Youtube ?","J'ai besoin d'une playlist HTML/CSS sur Youtube?","Je veux un lien vers la playlist du HTML/CSS sur Youtube ?","Lien vers cours en HTML/CSS sur Youtube ?"],
+      "responses":[
+         "Voici le lien vers le cours sur Youtube : <a href='https://www.youtube.com/playlist?list=PLrSOXFDHBtfE5tpw0bjMevWxMWXotiSdO' target='_blank'>HTML/CSSYoutube.com</a>",
+         "Cliquez ici pour acceder au cours sur Youtube: <a href='https://www.youtube.com/playlist?list=PLrSOXFDHBtfE5tpw0bjMevWxMWXotiSdO' target='_blank'>HTML/CSSYoutube.com</a>"
+     ]
+    },
+    {
+      "tag": "Bootstrap Course",
+      "patterns": ["I want to see the Bootstrap course",
+        "I want to consult the course on Bootstrap",
+        "I want to consult the course of Bootstrap","I want to consult the Bootstrap course","course Bootstrap","join Bootstrap course","Bootstrap"],
+      "responses": [
+        "Here are some links to Bootstrap course  : <a href='https://openclassrooms.com/fr/courses/7542506-creez-des-sites-web-responsives-avec-bootstrap-5' target='_blank'>BootStrapCourse.com</a>",
+        "Click here for another BootStrap course: <a href='https://www.w3schools.com/bootstrap5/' target='_blank'>BootStrap-Course.com</a>"]
+    },
+     {
+        "tag":"Cours bootstrap",
+        "patterns":["Je veux un cours bootstrap?", "Je veux une leçon de bootstrap?", "Je veux un cours bootstrap complet?"," Je veux un cours complet de bootstrap?" ,"Je veux une leçon complete de bootstrap?"," Je veux une leçon bootstrap complete?", "Avez-vous un cours bootstrap?", "Avez-vous un cours de bootstrap?", "Avez-vous une leçon bootstrap?", "Puis-je trouver un cours bootstrap?", "Est ce que je peux trouver un cours de bootstrap?", "Pourrais-je trouver un cours de bootstrap?", "Puis-je trouver une leçon de bootstrap?", "Je veux un cours au bootstrap?", "J'ai besoin d'un cours de bootstrap?", "J'ai besoin d'une leçon bootstrap?","Cour bootstrap?","Leçon bootstrap?"],
+        "responses":[
+          "Voici le lien vers le cours : <a href='https://openclassrooms.com/fr/courses/7542506-creez-des-sites-web-responsives-avec-bootstrap-5' target='_blank'>Courbootstrap.com</a>" ]
+      },
+    {
+      "tag": " Bootstrap tp ",
+      "patterns": ["I want to see Bootstrap tp",
+                "I want to consult tp on Bootstrap.",
+                "I want to consult the tp of Bootstrap","I want to consult Bootstrap tp","tp Bootstrap","join the Bootstrap tp ,I want practical work on Bootstrap?   I want TP on Bootstrap?  I want Bootstrap practical work?  I want Bootstrap exercises?  I Bootstrap practical work? Bootstrap exercices? Please, do you have any Bootstrap exercises? Please, do rou have any Bootstrap practical work? Do you have any Bootstrap exercises?  Do you have any Bootstrap practical work? Can i find Bootstrap exercises? Can i find Bootstrap practical work? I need Bootstrap practical work? I need Bootstrap exercises?"],
+      "responses": ["Here a  link of tp for Bootstrap course  : <a href='https://drive.google.com/file/d/1kdFfDIh9zArE9iNMwRWxo4rfjAc5TKnJ/view?usp=share_link' target='_blank'>BootStrap-Tp.com</a>"]
+    },
+     {
+        "tag":"TP bootstrap",
+        "patterns":["Je veux des TP sur bootstrap?", "Je veux des travaux pratiques sur bootstrap?", "Je veux des exercices sur bootstrap?", "Avez-vous des exercices sur bootstrap?", "Avez-vous des travaux pratiques sur bootstrap?", "Puis-je trouver des exercices sur bootstrap?" ,"Puis-je trouver des travaux pratiques sur bootstrap?", "J'ai besoin d'exercices sur bootstrap?","J'ai besoin des travaux pratiques sur bootstrap?", "Est ce que je veux trouver des exercices sur bootstrap?", "Est ce que je veux trouver des travaux pratiques sur bootstrap?","TP bootstrap?","Travaux pratiques bootstrap?","Exercices bootstrap?","TP sur bootstrap?","Travaux pratiques sur bootstrap?","Exercices sur bootstrap?"],
+        "responses":[
+          "Voici le lien vers les travaux pratiques : <a href='https://drive.google.com/file/d/1kdFfDIh9zArE9iNMwRWxo4rfjAc5TKnJ/view?usp=share_link' target='_blank'>TP-bootstrap.com</a>"]
+      },
+    {
+      "tag": "BootStap Qcm",
+      "patterns": ["I want to see BootStap qcm",
+                "I want to consult qcm on BootStap",
+                "I want to consult the qcm of BootStap ","I want to consult Qcm BootStap","qcm BootStap","join the BootStap qcm ,I want practical work on Bootstrap?   I want TP on BootStap?  I want BootStap practical work?  I want BootStap exercises?  I BootStap practical work? BootStap exercices? Please, do you have any BootStap exercises? Please, do rou have any BootStap practical work? Do you have any BootStap exercises?  Do you have any BootStap practical work? Can i find BootStap exercises? Can i find BootStap practical work? I need BootStap practical work? I need BootStap exercises?"],
+      "responses": ["Here a link of qcm for Bootstrap course  : <a href='https://drive.google.com/file/d/1kdFfDIh9zArE9iNMwRWxo4rfjAc5TKnJ/view?usp=share_link' target='_blank'>QcmBootStrap.com</a>"]
+    },
+    {
+        "tag":"Controle bootstrap",
+        "patterns":["Je veux un controle de bootstrap ?","Je veux un test de bootstrap ?","Je veux un examen de bootstrap ?","Examen bootstrap ?","Controle bootstrap ?","Test bootstrap ?","Controle de bootstrap ?","Test de bootstrap ?","Examen de bootstrap ?","Avez-vous un controle de bootstrap ?","Avez-vous un examen de bootstrap ?","Avez-vous un test de bootstrap ?","Avez-vous un controle bootstrap ?","Avez-vous un examen bootstrap ?","Avez-vous un test bootstrap ?","Puis-je trouver un examen de bootstrap ?","Puis-je trouver un controle de bootstrap ?","Puis-je trouver un test de bootstrap ?","J'ai besoin d'un controle de bootstrap ?","J'ai besoin d'un test de bootstrap ?","J'ai besoin d'un examen de bootstrap ?"],
+        "responses":[
+          "Voici le lien vers l'examen du bootstrap : <a href='https://drive.google.com/file/d/1kdFfDIh9zArE9iNMwRWxo4rfjAc5TKnJ/view?usp=share_link' target='_blank'>Examenbootstrap.com</a>"]
+      },
+
+    {
+      "tag":"Youtube Playlist Bootstrap",
+      "patterns":["I want a Bootstrap course on Youtube?","I want Bootstrap course on Youtube?","I want a Bootstrap playlist on Youtube?","I need a Bootstrap playlist on Youtube?","Can i find a playlist about Bootstrap course?","Can i find a Bootstrap playlist?","Do you have a playlist of Bootstrap on Youtube?","Do you have a playlist about Bootstrap on Youtube?","Do you have a playlist about Bootstrap course?","Do you have a Bootstrap playlist on Youtube?","Bootstrap course Playlist?","Bootstrap course on Youtube?","Bootstrap on Youtube?","Link to Bootstrap playlist on Youtube?","Link to Bootstrap course on Youtube?","Best playlist of Bootstrap?"],
+      "responses":[
+          "Here is the link to the course on Youtube: <a href='https://www.youtube.com/watch?v=EzHbZjXDdKc&t=4336s&ab_channel=AbdelrahmanGamal' target='_blank'>BootstrapYoutube.com</a>",
+          "Click here to access the course on Youtube: <a href='https://www.youtube.com/watch?v=EzHbZjXDdKc&t=4336s&ab_channel=AbdelrahmanGamal' target='_blank'>BootstrapYoutube.com</a>"
+      ]
+    },
+    {
+      "tag":"Playlist Youtube Bootstrap ",
+      "patterns":["Je veux un cours en Bootstrap sur Youtube ?","Je veux un cours de Bootstrap sur Youtube?","Je veux une playlist de Bootstrap sur Youtube ?","Puis-je trouver une playlist sur le cours en Bootstrap ?","Puis-je trouver une playlist Bootstrap ?","Avez-vous une playlist de Bootstrap sur Youtube?","Cours Bootstrap sur Youtube ?","J'ai besoin d'une playlist Bootstrap sur Youtube?","Je veux un lien vers la playlist du Bootstrap sur Youtube ?","Lien vers cours en Bootstrap sur Youtube ?"],
+      "responses":[
+        "Voici le lien vers le cours sur Youtube : <a href='https://www.youtube.com/watch?v=EzHbZjXDdKc&t=4336s&ab_channel=AbdelrahmanGamal' target='_blank'>BootstrapYoutube.com</a>",
+        "Cliquez ici pour acceder au cours sur Youtube: <a href='https://www.youtube.com/watch?v=EzHbZjXDdKc&t=4336s&ab_channel=AbdelrahmanGamal' target='_blank'>BootstrapYoutube.com</a>"
+      ]
+    },
+    {
+      "tag": "javaScript Course",
+      "patterns": ["I want to see the javascript course",
+         "I want to consult the course on javascript",
+         "I want to consult the course of javaScript","I want to consult the JavaScript course","course JavaScript","join JavaScript course","JavaScript","Js"],
+      "responses": [
+          "Here are some links to JavaScript course  : <a href='https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript' target='_blank'>JavaScript-Course.com</a>",
+          "Click here for another JavaScript course: <a href='https://docs.google.com/presentation/d/1RsEKWi0kZ83iZdhzSN8HKsJXN-UjUfW3/edit?usp=share_link&ouid=112514403145523612049&rtpof=true&sd=true' target='_blank'>JavaScript-Course.com</a>"]
+    },
+     {
+          "tag":"Cours javascript",
+          "patterns":["Je veux un cours javascript?", "Je veux une leçon de javascript?", "Je veux un cours javascript complet?"," Je veux un cours complet de javascript?" ,"Je veux une leçon complete de javascript?"," Je veux une leçon javascript complete?", "Avez-vous un cours javascript?", "Avez-vous un cours de javascript?", "Avez-vous une leçon javascript?", "Puis-je trouver un cours javascript?", "Est ce que je peux trouver un cours de javascript?", "Pourrais-je trouver un cours de javascript?", "Puis-je trouver une leçon de javascript?", "Je veux un cours au javascript?", "J'ai besoin d'un cours de javascript?", "J'ai besoin d'une leçon javascript?","Cour javascript?","Leçon javascript?"],
+          "responses":[
+            "Voici le lien vers le cours : <a href='https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript' target='_blank'>Courjavascript.com</a>"]
+     },
+    {
+      "tag": " JavaScript tp ",
+      "patterns": ["I want to see Javascript tp",
+         "I want to consult tp on Javascript.",
+         "I want to consult the tp of Javascript","I want to consult Javascript tp","tp Javascript","join the Javascript tp ,I want practical work on Javascript?   I want TP on Javascript?  I want Javascript practical work?  I want Javascript exercises?  I Javascript practical work? Javascript exercices? Please, do you have any Javascript exercises? Please, do you have any Javascript practical work? Do you have any Javascript exercises?  Do you have any Javascript practical work? Can i find Javascript exercises? Can i find Javascript practical work? I need Javascript practical work? I need Javascript exercises?"],
+      "responses": ["Here a  link of tp for Javascript course  : <a href='https://docs.google.com/document/d/1SW9zUrOL5c411QEqcMXJ5HrL9PHkj9LY/edit' target='_blank'>Javascript-Tp.com</a>"]
+     },
+    {
+        "tag":"TP javascript",
+        "patterns":["Je veux des TP sur javascript?", "Je veux des travaux pratiques sur javascript?", "Je veux des exercices sur javascript?", "Avez-vous des exercices sur javascript?", "Avez-vous des travaux pratiques sur javascript?", "Puis-je trouver des exercices sur javascript?" ,"Puis-je trouver des travaux pratiques sur javascript?", "J'ai besoin d'exercices sur javascript?","J'ai besoin des travaux pratiques sur javascript?", "Est ce que je veux trouver des exercices sur javascript?", "Est ce que je veux trouver des travaux pratiques sur javascript?","TP javascript?","Travaux pratiques javascript?","Exercices javascript?","TP sur javascript?","Travaux pratiques sur javascript?","Exercices sur javascript?"],
+        "responses":[
+          "Voici le lien vers les travaux pratiques : <a href='https://docs.google.com/document/d/1SW9zUrOL5c411QEqcMXJ5HrL9PHkj9LY/edit' target='_blank'>TP-javascript.com</a>"]
+      },
+    {
+      "tag":"javascript Qcm Test",
+      "patterns":["I want a javascript control?" ,"I want a javascript test?", " I want a javascript exam? ", "javascript exam? "," javascript control?", " javascript test?", "Control of javascript?", "Test of javascript ?", "Exam of javascript ?", "Do you have any javascript control?","Do you have any javascript exam?","Do you have any javascript test?", "Can i find the javascript exam?","Can i find the javascript control?","Can i find the javascript test?","I need a javascript control?","I need a javascript test?","I need a javascript exam?","Can i find a javascript control?", "Can i find a javascript test?","Can i find a javascript exam?","I want an exam about javascript?","I want a test about javascript ?","I want a control about javascript ?","I want a database control?" ,"I want a database test?", " I want a database exam? ", " database exam? "," database control?", " database test?", "Control of database ?", "Test of database ?", "Exam of database ?", "Do you have any database control?","Do you have any database exam?","Do you have any database test?", "Can i find the database exam?","Can i find the database control?","Can i find the database test?","I need a database control?","I need a database test?","I need a database exam?","Can i find a database control?", "Can i find a database test?","Can i find a database exam?","I want an exam about database ?","I want a test about database ?","I want a control about database ?"],
+      "responses":[
+         "Here is the link to the javascript controls : <a href='https://waytolearnx.com/2018/12/qcm-javascript-partie-1.html' target='_blank'>javascriptControl.com</a>"]
+    },
+    {
+        "tag":"Controle javascript",
+        "patterns":["Je veux un controle de javascript ?","Je veux un test de javascript ?","Je veux un examen de javascript ?","Examen javascript ?","Controle javascript ?","Test javascript ?","Controle de javascript ?","Test de javascript ?","Examen de javascript ?","Avez-vous un controle de javascript ?","Avez-vous un examen de javascript ?","Avez-vous un test de javascript ?","Avez-vous un controle javascript ?","Avez-vous un examen javascript ?","Avez-vous un test javascript ?","Puis-je trouver un examen de javascript ?","Puis-je trouver un controle de javascript ?","Puis-je trouver un test de javascript ?","J'ai besoin d'un controle de javascript ?","J'ai besoin d'un test de javascript ?","J'ai besoin d'un examen de javascript ?"],
+        "responses":[
+          "Voici le lien vers l'examen du javascript : <a href='https://waytolearnx.com/2018/12/qcm-javascript-partie-1.html' target='_blank'>Examenjavascript.com</a>"]},
+
+    {
+      "tag":"Youtube Playlist JavaScript",
+      "patterns":["I want a JavaScript course on Youtube?","I want JavaScript course on Youtube?","I want a JavaScript playlist on Youtube?","I need a JavaScript playlist on Youtube?","Can i find a playlist about JavaScript course?","Can i find a JavaScript playlist?","Do you have a playlist of JavaScript on Youtube?","Do you have a playlist about JavaScript on Youtube?","Do you have a playlist about JavaScript course?","Do you have a JavaScript playlist on Youtube?","JavaScript course Playlist?","JavaScript course on Youtube?","JavaScript on Youtube?","Link to JavaScript playlist on Youtube?","Link to JavaScript course on Youtube?","Best playlist of JavaScript?"],
+      "responses":[
+        "Here is the link to the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLknwEmKsW8OuTqUDaFRBiAViDZ5uI3VcE' target='_blank'>JavaScriptYoutube.com</a>",
+        "Click here to access the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLknwEmKsW8OuTqUDaFRBiAViDZ5uI3VcE' target='_blank'>JavaScriptYoutube.com</a>"
+      ]
+    },
+    {
+      "tag":"Playlist Youtube JavaScript ",
+      "patterns":["Je veux un cours en JavaScript sur Youtube ?","Je veux un cours de JavaScript sur Youtube?","Je veux une playlist de JavaScript sur Youtube ?","Puis-je trouver une playlist sur le cours en JavaScript ?","Puis-je trouver une playlist JavaScript ?","Avez-vous une playlist de JavaScript sur Youtube?","Cours JavaScript sur Youtube ?","J'ai besoin d'une playlist JavaScript sur Youtube?","Je veux un lien vers la playlist du JavaScript sur Youtube ?","Lien vers cours en JavaScript sur Youtube ?"],
+      "responses":[
+         "Voici le lien vers le cours sur Youtube : <a href='https://www.youtube.com/playlist?list=PLknwEmKsW8OuTqUDaFRBiAViDZ5uI3VcE' target='_blank'>JavaScriptYoutube.com</a>",
+         "Cliquez ici pour acceder au cours sur Youtube: <a href='https://www.youtube.com/playlist?list=PLknwEmKsW8OuTqUDaFRBiAViDZ5uI3VcE' target='_blank'>JavaScriptYoutube.com</a>"
+      ]
+    },
+    {
+      "tag": " react course ",
+      "patterns": ["I want to see the react course",
+         "I want to consult the course on react",
+         "I want to consult the course of react","I want to consult the react course","course react","join react course","react course","react"],
+      "responses": [
+          "Here are some links to react course  : <a href='https://openclassrooms.com/fr/courses/7008001-debutez-avec-react' target='_blank'>react-Course.com</a>",
+          "Click here for another react course: <a href='https://www.udemy.com/fr/topic/react/free/' target='_blank'>React-Course.com</a>"]
+    },
+     { "tag":"Cours react",
+            "patterns":["Je veux un cours  ?", "Je veux une leçon de react ?", "Je veux un cours react complet?"," Je veux un cours complet de react?" ,"Je veux une leçon complete de react?"," Je veux une leçon react complete?", "Avez-vous un cours react?", "Avez-vous un cours de react?", "Avez-vous une leçon react?", "Puis-je trouver un cours react?", "Est ce que je peux trouver un cours de react?", "Pourrais-je trouver un cours de react?", "Puis-je trouver une leçon de react?", "Je veux un cours au react?", "J'ai besoin d'un cours de react?", "J'ai besoin d'une leçon react?","Cour react?","Leçon react?"],
+            "responses":[
+              "Voici le lien vers le cours : <a href='https://openclassrooms.com/fr/courses/7008001-debutez-avec-react' target='_blank'>CourReact.com</a>" ]
+       },
+
+    {
+      "tag": " react tp ",
+      "patterns": ["I want exercises on react ?","I want practical work on REACT ?","I want TP on react ?","I want react practical work?","I want react exercises?","I react practical work?", "react exercices?", "Please, do you have any react exercises?"],
+      "responses": ["Here a  link of tp for react course  : <a href='https://students.corentindesfarges.fr/lp-tais/tp-react-router-and-api' target='_blank'>react-Tp.com</a>"]
+    },
+    {
+        "tag":"TP du react",
+        "patterns":["Je veux des TP sur react?", "Je veux des travaux pratiques sur react?", "Je veux des exercices sur react?", "Avez-vous des exercices sur react?", "Avez-vous des travaux pratiques sur react?", "Puis-je trouver des exercices sur react?" ,"Puis-je trouver des travaux pratiques sur react?", "J'ai besoin d'exercices sur react?","J'ai besoin des travaux pratiques sur react?", "Est ce que je veux trouver des exercices sur react?", "Est ce que je veux trouver des travaux pratiques sur react?","Je veux des TP sur la base de données?", "Je veux des travaux pratiques sur la base de données?", "Je veux des exercices sur la base de données?", "Avez-vous des exercices sur la base de données?", "Avez-vous des travaux pratiques sur la base de données?", "Puis-je trouver des exercices sur la base de données?" ,"Puis-je trouver des travaux pratiques sur la base de données?", "J'ai besoin d'exercices sur la base de données?","J'ai besoin des travaux pratiques sur la base de données?", "Est ce que je veux trouver des exercices sur la base de données?", "Est ce que je veux trouver des travaux pratiques sur la base de données?"],
+        "responses":[
+           "Voici le lien vers les travaux pratiques : <a href='https://students.corentindesfarges.fr/lp-tais/tp-react-router-and-api'>TPreact.com</a>"]
+
+      },
+    {
+      "tag":"react Qcm Test",
+      "patterns":["I want a react control?" ,"I want a react test?", " I want a react exam? ", "react exam? "," react control?", " react test?", "Control of react?", "Test of react ?", "Exam of react ?", "Do you have any react control?","Do you have any react exam?","Do you have any react test?", "Can i find the react exam?","Can i find the react control?","Can i find the react test?","I need a react control?","I need a react test?","I need a react exam?","Can i find a react control?", "Can i find a react test?","Can i find a react exam?","I want an exam about react?","I want a test about react ?","I want a control about react ?","I want a database control?" ,"I want a database test?", " I want a database exam? ", " database exam? "," database control?", " database test?", "Control of database ?", "Test of database ?", "Exam of database ?", "Do you have any database control?","Do you have any database exam?","Do you have any database test?", "Can i find the database exam?","Can i find the database control?","Can i find the database test?","I need a database control?","I need a database test?","I need a database exam?","Can i find a database control?", "Can i find a database test?","Can i find a database exam?","I want an exam about database ?","I want a test about database ?","I want a control about database ?"],
+      "responses":[
+         "Here is the link to the javascript controls : <a href='https://waytolearnx.com/2018/12/qcm-javascript-partie-1.html' target='_blank'>javascriptControl.com</a>"]
+    },
+     {
+        "tag":"Controle react",
+        "patterns":["Je veux un controle de react ?","Je veux un test de react ?","Je veux un examen de react ?","Examen react ?","Controle react ?","Test react ?","Controle de react ?","Test de react ?","Examen de react ?","Avez-vous un controle de react ?","Avez-vous un examen de react ?","Avez-vous un test de react ?","Avez-vous un controle react ?","Avez-vous un examen react ?","Avez-vous un test react ?","Puis-je trouver un examen de  react ?","Puis-je trouver un controle de react ?","Puis-je trouver un test de react ?","J'ai besoin d'un controle de react ?","J'ai besoin d'un test de react ?","J'ai besoin d'un examen de react ?","Je veux un controle de base de données ?","Je veux un test de base de données ?","Je veux un examen de base de données ?","Examen base de données ?","Controle base de données ?","Test base de données ?","Controle de base de données ?","Test de base de données ?","Examen de base de données ?","Avez-vous un controle de base de données ?","Avez-vous un examen de base de données ?","Avez-vous un test de react ?","Avez-vous un controle base de données ?","Avez-vous un examen base de données ?","Avez-vous un test base de données ?","Puis-je trouver un examen de base de données ?","Puis-je trouver un controle de base de données ?","Puis-je trouver un test de base de données ?","J'ai besoin d'un controle de base de données ?","J'ai besoin d'un test de base de données ?","J'ai besoin d'un examen de base de données ?"],
+        "responses":[
+           "Voici le lien vers l'examen du react : <a href=' https://waytolearnx.com/2018/12/qcm-javascript-partie-1.html ' target='_blank'>Examenreact.com</a>"]
+
+    },
+    {
+      "tag":"Youtube Playlist React",
+      "patterns":["I want a React course on Youtube?","I want React course on Youtube?","I want a React playlist on Youtube?","I need a React playlist on Youtube?","Can i find a playlist about React course?","Can i find a React playlist?","Do you have a playlist of React on Youtube?","Do you have a playlist about React on Youtube?","Do you have a playlist about React course?","Do you have a React playlist on Youtube?","React course Playlist?","React course on Youtube?","React on Youtube?","Link to React playlist on Youtube?","Link to React course on Youtube?","Best playlist of React?"],
+      "responses":[
+         "Here is the link to the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLjwdMgw5TTLWom67YfZuha-1iYzIirwJR' target='_blank'>ReactYoutube.com</a>",
+         "Click here to access the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLjwdMgw5TTLWom67YfZuha-1iYzIirwJR' target='_blank'>ReactYoutube.com</a>"
+      ]
+    },
+    {
+      "tag":"Playlist Youtube React ",
+      "patterns":["Je veux un cours en React sur Youtube ?","Je veux un cours de React sur Youtube?","Je veux une playlist de React sur Youtube ?","Puis-je trouver une playlist sur le cours en React ?","Puis-je trouver une playlist React ?","Avez-vous une playlist de React sur Youtube?","Cours React sur Youtube ?","J'ai besoin d'une playlist React sur Youtube?","Je veux un lien vers la playlist du React sur Youtube ?","Lien vers cours en React sur Youtube ?"],
+      "responses":[
+         "Voici le lien vers le cours sur Youtube : <a href='https://www.youtube.com/playlist?list=PLjwdMgw5TTLWom67YfZuha-1iYzIirwJR' target='_blank'>ReactYoutube.com</a>",
+         "Cliquez ici pour acceder au cours sur Youtube: <a href='https://www.youtube.com/playlist?list=PLjwdMgw5TTLWom67YfZuha-1iYzIirwJR' target='_blank'>ReactYoutube.com</a>"
+      ]
+    },
+    {"tag": "php course",
+        "patterns": ["I want to see the php course",
+         "I want to consult the course on php",
+         "I want to consult the course of php","I want to consult the php course","course php","join php course","php course","php"],
+         "responses": [
+          "Here are some links to php course  : <a href='https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/exercises/4203'>php-Course.com</a>"]},
+
+          {
+            "tag":"Cours de php",
+            "patterns":["Je veux un cours php ?", "Je veux une leçon de php ?", "Je veux un cours php complet?"," Je veux un cours complet de php?" ,"Je veux une leçon complete de php?"," Je veux une leçon php complete?", "Avez-vous un cours php?", "Avez-vous un cours de php?", "Avez-vous une leçon php?", "Puis-je trouver un cours php?", "Est ce que je peux trouver un cours de php?", "Pourrais-je trouver un cours de php?", "Puis-je trouver une leçon de php?", "Je veux un cours au php?", "J'ai besoin d'un cours de php?", "J'ai besoin d'une leçon php?","Cour php?","Leçon php?"],
+            "responses":[
+              "Voici le lien vers le cours : <a href='https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/exercises/4203'>Courphp.com</a>"]
+          },
+
+    {
+      "tag": "Systeme d'exploitaion : Linux course",
+      "patterns": ["I want to see the Linux course",
+         "I want to consult the course on Linux",
+         "I want to consult the course of Linux","I want to consult the Linux course","course Linux","join Linux course","Linux course","Linux","I want to take a course on Linux"],
+      "responses": [
+          "Here, a link to join the Linux course and TP also  : <a href='https://drive.google.com/drive/folders/1itaIl5OGJDndQJh7Piyn2Vj7ruOs54gt?usp=share_link' target='_blank'>linux-Course.com</a>",
+          "Click here for another Linux Course : <a href='https://openclassrooms.com/fr/courses/1733551-gerez-votre-serveur-linux-et-ses-services' target='_blank'>Course_LInux.com</a>"
+      ]
+    },
+     { "tag":"Cours Linux",
+        "patterns":["Je veux un cours linux?", "Je veux une leçon de linux?", "Je veux un cours linux complet?"," Je veux un cours complet de linux?" ,"Je veux une leçon complete de linux?"," Je veux une leçon linux complete?", "Avez-vous un cours linux?", "Avez-vous un cours de linux?", "Avez-vous une leçon linux?", "Puis-je trouver un cours linux?", "Est ce que je peux trouver un cours de linux?", "Pourrais-je trouver un cours de linux?", "Puis-je trouver une leçon de linux?", "Je veux un cours au linux?", "J'ai besoin d'un cours de linux?", "J'ai besoin d'une leçon linux?","Cour linux?","Leçon linux?"],
+        "responses":[
+          "Voici le lien vers le cours : <a href='https://drive.google.com/drive/folders/1itaIl5OGJDndQJh7Piyn2Vj7ruOs54gt?usp=share_link' target='_blank'>CourLinux.com</a>",
+          "Cliquez ici pour accéder au cours : <a href='https://drive.google.com/drive/folders/1itaIl5OGJDndQJh7Piyn2Vj7ruOs54gt?usp=share_link' target='_blank'>CourReseau.com</a>"]
+        },
+    {
+      "tag": "Systeme d'exploitaion : Linux tp",
+      "patterns": ["I want exercises on linux?","I want practical work on linux?","I want TP on linux?","I want linux practical work?","I want linux exercises?","linux practical work?", "linux exercices?", "Please, do you have any linux exercises?"," Please, do rou have any linux practical work?","Do you have any linux exercises?" , "Do you have any linux practical work?", "Can i find linux exercises?", "Can i find linux practical work?", "I need linux practical work?", "I need linux exercises?"],
+      "responses": [
+          "Here, a link to join the Linux practical work : <a href='https://drive.google.com/drive/folders/1DaY1UObtOc39N7468Fk6nmZQYyaCCpna?usp=share_link' target='_blank'>linux-praactical-work.com</a>"]
+    },
+      {"tag": " tp du Linux",
+        "patterns": ["Je veux des TP sur linux?", "Je veux des travaux pratiques sur linux?", "Je veux des exercices sur linux?", "Avez-vous des exercices sur linux?", "Avez-vous des travaux pratiques sur linux?", "Puis-je trouver des exercices sur linux?" ,"Puis-je trouver des travaux pratiques sur linux?", "J'ai besoin d'exercices sur linux?","J'ai besoin des travaux pratiques sur linux?", "Est ce que je veux trouver des exercices sur linux?", "Est ce que je veux trouver des travaux pratiques sur linux?","TP linux?","Travaux pratiques linux?","Exercices linux?","TP sur linux?","Travaux pratiques sur linux?","Exercices sur linux?"],
+         "responses": [
+          "Here, a link to join the Linux practical work : <a href='https://drive.google.com/drive/folders/1DaY1UObtOc39N7468Fk6nmZQYyaCCpna?usp=share_link' target='_blank'>LinuxPracticalWork.com</a>"]
+        },
+    {
+      "tag": "Systeme d'exploitaion : Linux control",
+      "patterns": ["I want a linux control?" ,"I want a linux test?", " I want a linux exam? ", "linux exam? "," linux control?", "linux test?", "Control of linux?", "Test of linux ?", "Exam of linux ?", "Do you have any linux control?","Do you have any linux exam?","Do you have any linux test?", "Can i find the linux exam?","Can i find the linux control?","Can i find the linux test?","I need a linux control?","I need a linux test?","I need a linux exam?","Can i find a linux control?", "Can i find a linux test?","Can i find a linux exam?","I want an exam about linux?","I want a test about linux ?","I want a control about linux ?"],
+      "responses": [
+          "Here, a link to join the Linux exam : <a href='https://drive.google.com/drive/folders/1oHhKWV977UcWQtCmrGHMf01ago7Oel8b?usp=share_link' target='_blank'>linux-control.com</a>"]
+    },
+    { "tag":"Controle linux",
+        "patterns":["Je veux un controle de linux ?","Je veux un test de linux ?","Je veux un examen de linux ?","Examen linux ?","Controle linux ?","Test linux ?","Controle de linux ?","Test de linux ?","Examen de linux ?","Avez-vous un controle de linux ?","Avez-vous un examen de linux ?","Avez-vous un test de linux ?","Avez-vous un controle linux ?","Avez-vous un examen linux ?","Avez-vous un test linux ?","Puis-je trouver un examen de linux ?","Puis-je trouver un controle de linux ?","Puis-je trouver un test de linux ?","J'ai besoin d'un controle de linux ?","J'ai besoin d'un test de linux ?","J'ai besoin d'un examen de linux ?"],
+        "responses":[
+          "Voici le lien vers l'examen du linux : <a href='https://drive.google.com/drive/folders/1oHhKWV977UcWQtCmrGHMf01ago7Oel8b?usp=share_link' target='_blank'>ExamenLinux.com</a>"]
+    },
+
+    {
+      "tag":"Youtube Playlist Linux",
+      "patterns":["I want a Linux course on Youtube?","I want Linux course on Youtube?","I want a Linux playlist on Youtube?","I need a Linux playlist on Youtube?","Can i find a playlist about Linux course?","Can i find a Linux playlist?","Do you have a playlist of Linux on Youtube?","Do you have a playlist about Linux on Youtube?","Do you have a playlist about Linux course?","Do you have a Linux playlist on Youtube?","Linux course Playlist?","Linux course on Youtube?","Linux on Youtube?","Link to Linux playlist on Youtube?","Link to Linux course on Youtube?","Best playlist of Linux?"],
+      "responses":[
+         "Here is the link to the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLaGwJ6zqHsQfGkdPeXkkYkcD74HT8Uuuq' target='_blank'>LinuxYoutube.com</a>",
+         "Click here to access the course on Youtube: <a href='https://www.youtube.com/playlist?list=PLaGwJ6zqHsQfGkdPeXkkYkcD74HT8Uuuq' target='_blank'>LinuxYoutube.com</a>"
+      ]
+    },
+    {
+      "tag":"Playlist Youtube Linux ",
+      "patterns":["Je veux un cours en Linux sur Youtube ?","Je veux un cours de Linux sur Youtube?","Je veux une playlist de Linux sur Youtube ?","Puis-je trouver une playlist sur le cours en Linux ?","Puis-je trouver une playlist Linux ?","Avez-vous une playlist de Linux sur Youtube?","Cours Linux sur Youtube ?","J'ai besoin d'une playlist Linux sur Youtube?","Je veux un lien vers la playlist du Linux sur Youtube ?","Lien vers cours en Linux sur Youtube ?"],
+      "responses":[
+         "Voici le lien vers le cours sur Youtube : <a href='https://www.youtube.com/playlist?list=PLaGwJ6zqHsQfGkdPeXkkYkcD74HT8Uuuq' target='_blank'>LinuxYoutube.com</a>",
+         "Cliquez ici pour acceder au cours sur Youtube: <a href='https://www.youtube.com/playlist?list=PLaGwJ6zqHsQfGkdPeXkkYkcD74HT8Uuuq' target='_blank'>LinuxYoutube.com</a>"
+      ]
+    }
+  ]
+}
